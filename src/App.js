@@ -25,6 +25,8 @@ class App extends Component {
       <div>
         <center>
             <ChatBot
+              recognitionEnable={true}
+              speechSynthesis={{ enable: true, lang: 'en' }}
               steps={steps}
             />
         </center>
